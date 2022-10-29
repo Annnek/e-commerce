@@ -1,0 +1,7 @@
+.button_place_banner {
+  height: 45px;
+  border-radius: 0 27px 27px 0;
+  padding: 13px 34px;
+  margin-left: -4px;
+  cursor: pointer;
+}

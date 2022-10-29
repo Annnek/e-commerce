@@ -1,0 +1,11 @@
+.form-demo__email {
+  width: 268px;
+  height: 45px;
+  font-size: 15px;
+  line-height: 21px;
+  border: 1px solid #6f2cff;
+  border-radius: 27px 0 0 27px;
+  /*
+  margin: 0 -4px 0 0;*/
+  padding: 0 26px 0 26px;
+}

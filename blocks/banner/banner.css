@@ -1,0 +1,8 @@
+.banner {
+  height: 755px;
+  width: 100%;
+  background-image: url(../../images/header-pink.png);
+  object-fit: contain;
+  object-position: right;
+  padding-left: 115px;
+}
