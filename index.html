@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="./pages/index.css" />
     <title>E-commerce example</title>
   </head>
-  <body>
-    <div class="root">
+  <body class="page">
+    <div class="page__content">
       <!-- HEADER SECTION -->
       <header class="header">
-        <div class="header__menu">
+        <div class="header__menu container">
           <a class="header__logo" href="#" target="_blank"
             ><img src="./images/logo/Qubit-logo.svg" alt="логотип компании"
           /></a>
@@ -40,45 +40,49 @@
               </li>
             </ul>
           </nav>
-          <div>
+          <div class="header__login">
             <button class="button button_place_header">Book a demo</button>
-            <a class="header__login" href="#">Log In</a>
+            <a class="button__login" href="#">Log In</a>
           </div>
-        </div>
-        <div class="banner">
-          <p class="banner__brief">Driving growth with personalization.</p>
-          <h1 class="banner__title">
-            Make ecommerce
-            <span class="banner__title_span_violet">More personal.</span>
-          </h1>
-          <p class="banner__text">
-            Hundreds of brands use
-            <span class="banner__text_span">Qubit CommerceAI</span> to power the
-            next generation of product recommendations, badging and insights to
-            build exceptional customer experiences.
-          </p>
-          <form
-            class="form-demo"
-            method="post"
-            action="mailto:info@example.com"
-          >
-            <input
-              class="form-demo__email"
-              type="email"
-              name="email"
-              id="banner-email"
-              placeholder="Enter your email"
-              required
-            />
-            <button class="button button_place_banner" type="submit">
-              Book a Demo
-            </button>
-          </form>
         </div>
       </header>
       <main class="content">
+        <!-- BANNER -->
+        <div class="banner">
+          <div class="banner__content">
+            <p class="banner__brief">Driving growth with personalization.</p>
+            <h1 class="banner__title">
+              Make ecommerce
+              <span class="banner__title_span_violet">More personal.</span>
+            </h1>
+            <p class="banner__text">
+              Hundreds of brands use
+              <span class="banner__text_span">Qubit CommerceAI</span> to power
+              the next generation of product recommendations, badging and
+              insights to build exceptional customer experiences.
+            </p>
+            <form
+              class="form-demo"
+              method="post"
+              action="mailto:info@example.com"
+            >
+              <input
+                class="form-demo__email"
+                type="email"
+                name="email"
+                id="banner-email"
+                placeholder="Enter your email"
+                required
+              />
+              <button class="button button_place_banner" type="submit">
+                Book a Demo
+              </button>
+            </form>
+          </div>
+        </div>
+
         <!-- BRANDS -->
-        <section class="brands">
+        <section class="brands container">
           <h2 class="brands__title">Trusted by world-class brands.</h2>
           <ul class="brands__row">
             <li>
@@ -153,7 +157,7 @@
           </div>
         </section>
         <!-- DIGITS -->
-        <section class="digits">
+        <section class="digits container">
           <div class="digits__container">
             <div class="digits__column">
               <h2 class="digits__title">
@@ -163,12 +167,12 @@
                 <button class="button button_place_digits" type="submit">
                   Book a demo
                 </button>
-                <a class="digits_link_info" href="http://"
+                <a class="digits__link_info" href="http://"
                   >Meet our customers &gt;</a
                 >
               </div>
               <p class="digits__text">*PwC audited methodology.</p>
-              <a class="digits_link_report" href="http://">Read the report</a>
+              <a class="digits__link_report" href="http://">Read the report</a>
             </div>
 
             <ul class="digits__column digits__column_list">
@@ -213,7 +217,7 @@
         </section>
 
         <!-- COMMERCE -->
-        <section class="commerce content__container">
+        <section class="commerce content__container container">
           <h2 class="section-title">Qubit CommerceAI.</h2>
           <h3 class="section-subtitle">The new way to drive growth.</h3>
           <ul class="table">
@@ -257,7 +261,7 @@
         </section>
 
         <!-- PRODUCT -->
-        <section class="product content__container">
+        <section class="product container">
           <h2 class="section-title">All the power. Easy to use.</h2>
           <h3 class="section-subtitle">
             By collaborating with real ecommerce teams we've built the next-gen
@@ -279,7 +283,7 @@
         </section>
 
         <!-- TIPS -->
-        <section class="tips">
+        <section class="tips container">
           <h2 class="section-title">What you can do with Qubit.</h2>
           <ul class="table">
             <li class="table__item">
@@ -358,7 +362,7 @@
         </section>
 
         <!-- BRAND CARDS -->
-        <section class="brand-cards">
+        <section class="brand-cards container">
           <h2 class="section-title">Trusted by leading brands.</h2>
           <div class="slider">
             <ul class="slider__cards">

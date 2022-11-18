@@ -1,7 +1,9 @@
-.header__link {
+.button__login {
   line-height: 14px;
   font-size: 14px;
   font-weight: 400;
   text-decoration: none;
   color: #1c1c1c;
+  cursor: pointer;
+  transition: 0.2s linear 0.15s;
 }

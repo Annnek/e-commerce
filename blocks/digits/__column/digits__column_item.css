@@ -1,0 +1,7 @@
+.digits__column_item {
+  box-sizing: border-box;
+  padding-left: 16px;
+  width: 309px;
+  height: 220px;
+  border-left: 1px solid #e0e0e0;
+}

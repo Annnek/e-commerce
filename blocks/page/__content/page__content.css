@@ -1,0 +1,6 @@
+.page__content {
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
