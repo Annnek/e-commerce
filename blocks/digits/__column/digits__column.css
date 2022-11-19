@@ -1,8 +1,9 @@
 .digits__column {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
-  max-width: calc(100% / 2);
+  justify-content: center; */
+
+  max-width: 100%;
   margin: 0;
   padding: 0;
 }

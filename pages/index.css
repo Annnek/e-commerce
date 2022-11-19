@@ -45,6 +45,7 @@
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/digits/__container/digits__container.css);
 @import url(../blocks/digits/__column/digits__column.css);
+@import url(../blocks/digits/__column/digits__column_left.css);
 @import url(../blocks/digits/__title/digits__title.css);
 @import url(../blocks/digits/__buttons/digits__buttons.css);
 @import url(../blocks/button/_place/button_place_digits.css);

@@ -1,5 +1,6 @@
 .brands {
+  max-width: 100%;
   min-height: 204px;
-  margin: 0 115px;
+  padding: 0 115px;
   box-sizing: border-box;
 }

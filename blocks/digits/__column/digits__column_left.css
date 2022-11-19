@@ -1,0 +1,5 @@
+.digits__column_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
